@@ -1,0 +1,36 @@
+.plan__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plan__details > h5 {
+  font-weight: 500;
+}
+
+.plan__buttonUnsubscribed {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #e50914;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.plan__buttonSubscribed {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: gray;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.plan__container:hover {
+  opacity: 1;
+}
