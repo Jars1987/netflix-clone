@@ -2,9 +2,10 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { getStripePayments } from '@stripe/firestore-stripe-payments';
+const key = process.env.REACT_APP_API_KEY;
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBYcSR_yjMQi8k6aEIJlyB4ng1pKdO0lLU',
+  apiKey: key,
   authDomain: 'netflix-clone-507b4.firebaseapp.com',
   projectId: 'netflix-clone-507b4',
   storageBucket: 'netflix-clone-507b4.appspot.com',
